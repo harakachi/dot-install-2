@@ -18,6 +18,10 @@
 		73F369F0174F45F6004D9B65 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F369EF174F45F6004D9B65 /* Default-568h@2x.png */; };
 		73F369F3174F45F6004D9B65 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F369F1174F45F6004D9B65 /* MainStoryboard.storyboard */; };
 		73F369F6174F45F6004D9B65 /* MixiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F369F5174F45F6004D9B65 /* MixiViewController.m */; };
+		73F36A01174F4F1C004D9B65 /* illust_grape03_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73F36A00174F4F1C004D9B65 /* illust_grape03_01.jpg */; };
+		73F36A03174F4F27004D9B65 /* icon_rose4_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73F36A02174F4F27004D9B65 /* icon_rose4_19.jpg */; };
+		73F36A05174F5221004D9B65 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F36A04174F5221004D9B65 /* MapKit.framework */; };
+		73F36A07174F522A004D9B65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F36A06174F522A004D9B65 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		73F369F2174F45F6004D9B65 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		73F369F4174F45F6004D9B65 /* MixiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiViewController.h; sourceTree = "<group>"; };
 		73F369F5174F45F6004D9B65 /* MixiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewController.m; sourceTree = "<group>"; };
+		73F36A00174F4F1C004D9B65 /* illust_grape03_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = illust_grape03_01.jpg; sourceTree = "<group>"; };
+		73F36A02174F4F27004D9B65 /* icon_rose4_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_rose4_19.jpg; sourceTree = "<group>"; };
+		73F36A04174F5221004D9B65 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		73F36A06174F522A004D9B65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F36A07174F522A004D9B65 /* CoreLocation.framework in Frameworks */,
+				73F36A05174F5221004D9B65 /* MapKit.framework in Frameworks */,
 				73F369DA174F45F6004D9B65 /* UIKit.framework in Frameworks */,
 				73F369DC174F45F6004D9B65 /* Foundation.framework in Frameworks */,
 				73F369DE174F45F6004D9B65 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +83,8 @@
 		73F369D8174F45F6004D9B65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73F36A06174F522A004D9B65 /* CoreLocation.framework */,
+				73F36A04174F5221004D9B65 /* MapKit.framework */,
 				73F369D9174F45F6004D9B65 /* UIKit.framework */,
 				73F369DB174F45F6004D9B65 /* Foundation.framework */,
 				73F369DD174F45F6004D9B65 /* CoreGraphics.framework */,
@@ -83,6 +95,8 @@
 		73F369DF174F45F6004D9B65 /* dotinstall2 */ = {
 			isa = PBXGroup;
 			children = (
+				73F36A02174F4F27004D9B65 /* icon_rose4_19.jpg */,
+				73F36A00174F4F1C004D9B65 /* illust_grape03_01.jpg */,
 				73F369E8174F45F6004D9B65 /* MixiAppDelegate.h */,
 				73F369E9174F45F6004D9B65 /* MixiAppDelegate.m */,
 				73F369F1174F45F6004D9B65 /* MainStoryboard.storyboard */,
@@ -164,6 +178,8 @@
 				73F369EE174F45F6004D9B65 /* Default@2x.png in Resources */,
 				73F369F0174F45F6004D9B65 /* Default-568h@2x.png in Resources */,
 				73F369F3174F45F6004D9B65 /* MainStoryboard.storyboard in Resources */,
+				73F36A01174F4F1C004D9B65 /* illust_grape03_01.jpg in Resources */,
+				73F36A03174F4F27004D9B65 /* icon_rose4_19.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
